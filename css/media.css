@@ -130,7 +130,12 @@
   .title-section .title-z1 h2 {
     font-size: 7em;
   }
-
+  .hiro-overly {
+    font-size: 10px;
+  }
+  .hiro-overly p {
+    font-size: 1.8em;
+  }
   .wha-do .container{
     width: 100%;
   }
@@ -140,3 +145,23 @@
   }
 
 }
+@media (max-width: 370px) {
+
+  .title-section {
+    font-size: 5px;
+  }
+  .title-section .title-z2 {
+    padding: 10px 0;
+  }
+
+  .title-section .title-z1 h2 {
+    font-size: 7em;
+  }
+  .hiro-overly {
+    font-size: 8px;
+  }
+  .hiro-overly p {
+    font-size: 1em;
+  }
+}
+
