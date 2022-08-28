@@ -22,6 +22,8 @@
     padding: 15px 0;
   }
 
+
+
   .portfolio .container{
     flex-direction: column;
   }
@@ -30,6 +32,16 @@
     width: 95%;
     height: auto;
   }
+
+  .client{
+    flex-direction: column;
+  }
+  .client-box{
+    margin: 10px 0;
+    background-color: #F8F9FA;
+    width: 100%;
+  }
+
   .column{
     width: 100%;
   }
@@ -103,15 +115,6 @@
     flex-direction: column;
   }
   .skills .skills-box{
-    width: 100%;
-  }
-
-  .client{
-    flex-direction: column;
-  }
-  .client-box{
-    margin: 10px 0;
-    background-color: #F8F9FA;
     width: 100%;
   }
 
