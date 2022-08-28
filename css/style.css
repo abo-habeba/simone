@@ -95,6 +95,7 @@ nav .links li a {
   background-image: url(intro-bg.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   position: relative;;
 }
 .hiro-overly {
