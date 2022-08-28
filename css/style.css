@@ -112,9 +112,157 @@ nav .links li a {
 .hiro-overly h3 {
   font-size: 1.7em;
 }
+
 .hiro-overly h1 {
   font-size: 3.8em;
+  
 }
+.hiro-overly h1::before{
+  content: '';
+  animation: head-title 15s infinite;
+}
+/* I'm Simone Olivia| */
+@keyframes head-title{
+  2%{
+    content: 'I ' ;
+  }
+  4%{
+    content: 'I m';
+  }
+  6%{
+    content: 'I m ';
+  }
+  8%{
+    content: 'I m S';
+  }
+  10%{
+    content: 'I m Si';
+  }
+  12%{
+    content: 'I m Sim';
+  }
+  14%{
+    content: 'I m Simo';
+  }
+  16%{
+    content: 'I m Simon';
+  }
+  18%{
+    content: 'I m Simone';
+  }
+  20%{
+    content: 'I m Simone ';
+  }
+  22%{
+    content: 'I m Simone O';
+  }
+  24%{
+    content: 'I m Simone Ol';
+  }
+  26%{
+    content: 'I m Simone Oli';
+  }
+  28%{
+    content: 'I m Simone Oliv';
+  }
+  30%{
+    content: 'I m Simone Olivi';
+  }
+  32%{
+    content: 'I m Simone Olivia';
+  }
+  /* I m a Freelancer.| */
+  34%{
+    content: 'I ';
+  }
+  36%{
+    content: 'I m ';
+  }
+  38%{
+    content: 'I m a';
+  }
+  40%{
+    content: 'I m a F';
+  }
+  42%{
+    content: 'I m a Fr';
+  }
+  44%{
+    content: 'I m a Fre';
+  }
+  46%{
+    content: 'I m a Free';
+  }
+  48%{
+    content: 'I m a Freel';
+  }
+  50%{
+    content: 'I m a Freela';
+  }
+  52%{
+    content: 'I m a Freelan';
+  }
+  54%{
+    content: 'I m a Freelanc';
+  }
+  56%{
+    content: 'I m a Freelance';
+  }
+  58%{
+    content: 'I m a Freelancer';
+  }
+  60%{
+    content: 'I m a Freelancer.';
+  }
+  /* I m a Photographer.| */
+  62%{
+    content: 'I m a ';
+  }
+  64%{
+    content: 'I m a P';
+  }
+  66%{
+    content: 'I m a Ph';
+  }
+  68%{
+    content: 'I m a Pho';
+  }
+  70%{
+    content: 'I m a Phot';
+  }
+  82%{
+    content: 'I m a Photo';
+  }
+  84%{
+    content: 'I m a Photog';
+  }
+  86%{
+    content: 'I m a Photogr';
+  }
+  88%{
+    content: 'I m a Photogra';
+  }
+  90%{
+    content: 'I m a Photograp';
+  }
+  92%{
+    content: 'I m a Photograph';
+  }
+  94%{
+    content: 'I m a Photographe';
+  }
+  96%{
+    content: 'I m a Photographer';
+  }
+  98%{
+    content: 'I m a Photographer.';
+  }
+  100%{
+    content: 'I m a Photographer.';
+  }
+}
+
+
 .hiro-overly p {
   font-size: 1.3em;
 }
